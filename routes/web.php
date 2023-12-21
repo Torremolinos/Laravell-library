@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('welcome'); //welcome es una vista que esta en la carpeta views y que se llama welcome.blade.php (blade es el motor de plantillas de laravel) 
 });
